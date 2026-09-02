@@ -33,14 +33,14 @@
   <rect x="564" y="34" width="70" height="48" rx="4" fill="url(#minimalDots)" />
 
   <!-- Line 1 -->
-  <text x="325" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="0.3">
+  <text x="325" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3">
     <tspan class="quote-green">To have </tspan>
     <tspan class="quote-accent">something</tspan>
     <tspan class="quote-green"> you’ve never had before,</tspan>
   </text>
 
   <!-- Line 2 -->
-  <text x="325" y="55" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" letter-spacing="0.3">
+  <text x="325" y="55" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.3">
     <tspan class="quote-green">you must become </tspan>
     <tspan class="quote-accent">someone</tspan>
     <tspan class="quote-green"> you’ve never been before.</tspan>
