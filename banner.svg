@@ -1,5 +1,12 @@
 <svg width="850" height="95" viewBox="0 0 850 95" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
     <!-- Dot Pattern -->
     <pattern id="dotGrid" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.1" fill="#238636" opacity="0.3" />
