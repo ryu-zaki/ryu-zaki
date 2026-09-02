@@ -1,27 +1,20 @@
-<svg width="850" height="95" viewBox="0 0 850 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="75" viewBox="0 0 850 75" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="50%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
-    </linearGradient>
-
-    <!-- Dot Pattern -->
-    <pattern id="dotGrid" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.1" fill="#238636" opacity="0.3" />
+    <!-- Subtle Green Dot Pattern -->
+    <pattern id="minimalDots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#238636" opacity="0.28" />
     </pattern>
   </defs>
 
-  <!-- Base Compact Card -->
-  <rect width="850" height="95" rx="10" fill="url(#cardBg)" stroke="#238636" stroke-width="1.2"/>
+  <!-- Dark Background (No Border) -->
+  <rect width="850" height="75" rx="8" fill="#0d1117"/>
 
-  <!-- Compact Dot Grid Accents -->
-  <rect x="15" y="12" width="80" height="71" rx="6" fill="url(#dotGrid)" />
-  <rect x="755" y="12" width="80" height="71" rx="6" fill="url(#dotGrid)" />
+  <!-- Minimal Dotted Texture Accents -->
+  <rect x="12" y="10" width="70" height="55" rx="4" fill="url(#minimalDots)" />
+  <rect x="768" y="10" width="70" height="55" rx="4" fill="url(#minimalDots)" />
 
-  <!-- Quote in a Single Sleek Line -->
-  <text x="425" y="53" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">
+  <!-- Centered Minimalist Quote -->
+  <text x="425" y="44" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500" letter-spacing="0.3">
     <tspan fill="#39d353">To have </tspan>
     <tspan fill="#ffffff" font-weight="700">something</tspan>
     <tspan fill="#39d353"> you’ve never had before, you must become </tspan>
